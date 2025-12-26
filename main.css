@@ -1,0 +1,63 @@
+body {
+background-color: black;
+}
+.naglowek {
+text-align: center;
+
+}
+.linia {
+width: 900px;
+
+}
+
+.zdjecie {
+margin-left: 500px;
+margin-top: 40px;
+
+
+}
+.dane {
+    display: flex; 
+    color: white;
+    margin-left: 750px;
+   margin-top: -215px;
+}
+.nigger {
+text-align: center;
+margin-bottom: 0px;
+
+
+}
+
+.danedane {
+
+border: 1px solid white;
+margin-left: 500px;
+width: 900px;
+margin-top: 10px;
+height: 450px;
+}
+.rainbow {
+ background: linear-gradient(
+    270deg,
+    red,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet
+  );
+  background-size: 400% 400%;
+  animation: rainbow 5s ease infinite;
+
+  -webkit-background-clip: text;
+  background-clip : text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes rainbow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
